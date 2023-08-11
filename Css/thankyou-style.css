@@ -1,0 +1,38 @@
+body
+{
+    margin: 0px; 
+    padding: 0px;
+}
+
+.middle
+{
+    /*border: 2px solid yellow;*/
+    position: absolute;
+    top: 245px;
+    left: 0px;
+    line-height: 15px;
+    text-align: center;
+    width: 1544px;
+    height: 190px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.middle h1
+{
+    display:inline-block;
+    position: absolute;
+    top: 55px;
+    left: 430px;
+    font-size: 60px;
+    font-family:'Baloo Paaji 2', cursive; ;
+    color: white;
+    text-align: center;
+}
+
+.middle font
+{
+    color: orangered;
+}
+

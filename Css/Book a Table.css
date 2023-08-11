@@ -1,0 +1,491 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero
+{
+    height: 100vh;
+    background-image:url(../MEDIA/burger1.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+body a 
+{
+    color: orangered;
+    text-decoration: none;
+}
+
+
+
+
+.logo
+{
+    display: inline-block;
+    height: 130px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    /*border: 2px solid red;*/
+    background-color: orangered;
+    border-radius: 30px;
+}
+.logo img
+{
+    height: 130px;
+    width: 200px;
+    position: relative;
+    left: -20px;
+    
+}
+
+.navbar
+{
+    display: inline-block;
+    position: absolute;
+    /*border: 2px solid red;*/
+    margin: 0px;
+    padding: 0px;
+    /*background-color:yellow;*/
+    height: 50px;
+    margin-left: 220px;
+    margin-top: 20px;
+    border-top: 3px solid rgb(67, 67, 82);
+    border-bottom: 3px solid rgb(67, 67, 82);
+    
+}
+.navbar li
+{
+    float: left;
+    list-style: none;
+    width: 145px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:left;
+    color: orangered;
+        
+}
+.navbar li:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+.middle
+{
+    /*border: 2px solid red;*/
+    margin: 0px 100px;
+    position:relative;
+    top: 30px;
+    left: 0px;
+    line-height: 15px;
+    text-align: center;
+    height: 490px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.middle h2
+{
+    display:inline-block;
+    position: absolute;
+    top: 0px;
+    left:540px;
+    font-size: 40px;
+    font-family:'Baloo Paaji 2', cursive; ;
+    color: white;
+    text-align: center;
+}
+
+.middle h1
+{
+    display:inline-block;
+    position:relative;
+    top: 45px;
+    font-size: 60px;
+    font-family:'Baloo Paaji 2', cursive; ;
+    color: white;
+    text-align: center;
+}
+
+form
+{
+    /*border: 2px solid red;*/
+    display: inline-block;
+    width: 1011px;
+    height: 263px;
+    position: absolute;
+    top: 320px;
+    left: 160px;
+    color: white;
+}
+
+.date
+{
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    left: 55px; 
+    top: 0px;   
+}
+.date label
+{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.date input
+{
+    border: none;
+    display: inline-block;
+    width: 290px;
+    height: 45px;
+    border-radius: 15px;
+    padding: 4px 0px 4px 20px;
+}
+
+.time 
+{
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    left: 450px; 
+    top: 0px;   
+}
+
+.time select
+{
+    border: none;
+    display: inline-block;
+    width: 310px;
+    height: 51px;
+    border-radius: 15px;
+    padding: 4px 0px 4px 20px;
+}
+
+.time select:hover
+{
+    cursor: pointer;
+}
+
+.name
+{
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    left: 55px; 
+    top: 110px;    
+}
+
+.name label
+{
+    display: inline-block;
+    font-size: 30px;  
+}
+
+.name input
+{
+    border: none;
+    display: inline-block;
+    width: 290px;
+    height: 45px;
+    border-radius: 15px;
+    padding: 4px 0px 4px 20px;
+}
+
+
+.phone
+{
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    left: 450px; 
+    top: 110px;    
+}
+
+.phone input
+{
+    border: none;
+    display: inline-block;
+    width: 290px;
+    height: 45px;
+    border-radius: 15px;
+    padding: 4px 0px 4px 20px;
+}
+
+.people 
+{
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    left: 785px; 
+    top: 0px;   
+}
+
+.people select
+{
+    border: none;
+    display: inline-block;
+    width: 310px;
+    height: 51px;
+    border-radius: 15px;
+    padding: 4px 0px 4px 20px;
+}
+
+.people select:hover
+{
+    cursor: pointer;
+}
+
+
+.email
+{
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    left: 785px; 
+    top: 110px;    
+}
+
+.email label
+{
+    display: inline-block;
+    font-size: 30px;  
+}
+
+.email input
+{
+    border: none;
+    display: inline-block;
+    width: 290px;
+    height: 45px;
+    border-radius: 15px;
+    padding: 4px 0px 4px 20px; 
+}
+
+.btn1
+{
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    left: 520px;
+    width: 155px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.btn1 button
+{
+    width: 155px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.btn1 button:hover
+{
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+
+footer
+{
+    position:relative;
+    top:110px;
+    background-image: url("../media/back2.jpg");
+    background-size: cover;
+    height:390px;
+    line-height: 37px;
+}
+.footer1 
+{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    
+}
+.footer1 h1,.footer2 h1
+{
+    display:inline-block;
+    color:yellow;
+    font-size: 30px;
+    line-height: 0px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.footer1 h3,.footer2 h3
+{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.footer2
+{
+    display: inline-block;
+    position:absolute;
+    left: 950px;
+    top: 20px;
+}
+.footer2 ul li
+{
+    list-style: none;
+    font-size:20px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    margin-left:-30px;
+}
+.footer2 ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer2 ul li a:hover
+{
+    color:orange;
+    font-weight: bolder;
+
+}
+
+section
+{
+    position: relative;
+    top: 110px;
+}
+section h1
+{
+    position: relative;
+    top: 0px;
+}
+
+
+.last
+{
+    position: relative;
+    top:0px;
+}
+
+.heading
+{
+ 
+    display: block;
+    
+    position: relative;
+    top: 490px;
+    
+}
+.button h1
+{
+    display: inline-block;
+    width: 300px;
+    border: 2px solid red;
+    height: 100px;
+}
+.last .btn1
+{
+    background-color: red;
+}
+.last .btn2
+{
+    background-color: #BA184F;
+}
+.last .btn3
+{
+    background-color:rgb(24, 24, 144);
+}
+.last .btn4
+{
+    background-color:rgb(34, 84, 184);
+}
+.last .btn5
+{
+    background-color:#FD1D1D;
+}
+.last button
+{
+    width: 190px;
+    height: 55px;
+    border-radius: 8px;
+}
+.last button img
+{
+    height: 38px;
+    text-align: center;
+    margin-top: 5px;
+}
+.last button:hover
+{
+    background-color: orange;
+    cursor: pointer;
+}
+
+            /*Mesia Querry*/
+@media  screen and (max-width:450px)
+{
+    .logo
+    {
+        height: 60px;
+        width: 70px;
+        position: relative;
+        top:0;
+        left:0;
+    }
+    .logo img
+    {
+        height: 57px;
+        width: 100px;
+        margin-left:5px ;
+    }
+    .navbar
+    {
+        top: 20px;
+        left: 80px;
+        height: 13px;
+        margin-left:0;
+        margin-top:0;
+    
+    }
+    .navbar ul 
+    {
+        padding: 0;
+        margin: 0;
+    }
+     .navbar li
+    {
+        margin-bottom: 10px;
+        height:0;
+        width: 57px;
+        font-size:8px;  
+    }
+    .middle
+    {
+        margin: 0 0;
+    }
+    .middle h2
+    {
+        left: 120px;
+        font-size: 20px;
+    }
+    .middle h1 
+    {
+        font-size: 30px;
+    }
+}

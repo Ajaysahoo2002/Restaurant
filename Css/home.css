@@ -1,0 +1,680 @@
+body
+{
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
+header
+{
+    position: relative;
+    background-image: url("../Media/home-background.jpg");
+    /*border: 2px solid red;*/
+    background-size: cover;
+    height: 780px;
+}
+body a 
+{
+    color: orangered;
+    text-decoration: none;
+}
+
+.logo
+{
+    display: inline-block;
+    height: 130px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    /*border: 2px solid red;*/
+    background-color: orangered;
+    border-radius: 30px;
+}
+.logo img
+{
+    height: 130px;
+    width: 200px;
+    position: relative;
+    left: -20px; 
+}
+
+.navbar
+{
+    display: inline-block;
+    position: absolute;
+    /*border: 2px solid red;*/
+    margin: 0px;
+    padding: 0px;
+    /*background-color:yellow;*/
+    height: 50px;
+    margin-left: 220px;
+    margin-top: 20px;
+    border-top: 3px solid rgb(67, 67, 82);
+    border-bottom: 3px solid rgb(67, 67, 82);
+}
+.navbar li
+{
+    float:left;
+    list-style: none;
+    width: 145px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:left;
+    color: white;   
+}
+.navbar li:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.container1
+{
+    position: absolute;
+    left: 380px;
+    top: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    height: 300px;
+    width: 580px;
+    /*border: 2px solid red;*/
+    line-height: 50px;
+    color: white;   
+    
+}
+.container1 h1
+{
+    font-size: 60px;   
+    display: block;
+    margin: 0px;
+}
+.container1 h2
+{
+    line-height:30px;
+    margin-top: 5px;
+}
+.container1 button
+{
+    display: inline-block;
+    width: 190px;
+    height: 60px;
+    font-size: 19px;
+    background-color: transparent;
+    color:red;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 3px solid red;
+    cursor: pointer;
+   margin-left: 10px;
+   text-align: center;
+
+}
+.container1 #btn2 img
+{
+    display: inline-block;
+    height: 20px;
+    padding-left: 0px;   
+}
+.container1 button:hover
+{
+    background-color: orange;
+    font-size: 21px;
+    font-weight: bolder;
+}
+.container1 button a
+{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.right-btn button
+{
+    display: inline-block;
+    position:absolute;
+    top: 35px;
+    right: 100px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    
+}
+.right-btn button:hover
+{
+    background-color: orange;
+    font-size: 18px;
+    text-decoration:none;
+}
+
+
+            /*Main part from Header*/
+
+
+.main1
+{
+    display:block;
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+.main1 h1
+{
+    color: white;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.sub-main
+{
+   display: flex;
+   flex-wrap: wrap;
+   border: 2px solid red;
+   justify-content: center;
+    
+}
+.sub-main div
+{
+    background-color: yellow;
+    height: 310px;
+    flex-basis: 270px;
+    margin: 20px;
+    border: 2px solid red;
+}
+.main1 #sub1
+{
+    background-image: url("../media/grill8.jpg");
+    background-size: cover;
+}
+.main1 #sub2
+{
+    background-image: url("../media/Sweets/soan\ papdi.jpg");
+    background-size: cover;
+}
+.main1 #sub3
+{
+    background-image: url("../media/biryani11.jpg");
+    background-size: cover;
+}
+
+.main1 #sub4
+{
+    background-image: url("../media/shake1.jpg");
+    background-size: cover;
+}
+.main1 #sub5
+{
+    background-image: url("../Media/icecreame\ back.webp");
+    background-size: cover;
+}
+.main1 #sub6
+{
+    background-image: url("../media/burger3.webp");
+    background-size: cover;
+}
+.main1 #sub7
+{
+    background-image: url("../Media/drink3.webp");
+    background-size: cover;
+}
+.main1 #sub8
+{
+    background-image: url("../media/Pizza/Paneer-Makhni-Pizza.jpg");
+    background-size: cover;
+}
+.main1 .sub-main h1
+{
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.main1 .sub-main button
+{
+    display:block;
+    position:relative;
+    top:150px;
+    left:90px;
+    flex-basis: 100px;
+    justify-content: center;
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.main1 .sub-main1 button:hover
+{
+    background-color:red;
+}
+.main1 .sub-main1 button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.main2
+{
+    display:block;
+    position: relative;
+    top: 60px;
+    /*border: 2px solid red;*/
+}
+.main2 .review
+{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main2 .review .box1
+{
+    width: 370px;
+}
+.main2 h1
+{
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    padding: 0px;
+}
+.main2 .box1
+{
+    display: inline-block;
+    height: 365px;
+    width: 400px;
+    position: relative;
+    top: 60px;
+    left: 0px;
+    margin: 48px;
+    border: 2px solid red;
+    background-color:rgb(40, 41, 41);
+}
+.main2 .box1 img
+{
+    margin-top: -100px;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    position: relative;
+    left:0px;
+    border: 8px solid white;
+    background-position: center center;
+}
+.main2 .box1 h1
+{
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+}
+.main2 .box1 h2
+{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin:50px 35px 5px 35px;
+}
+
+.main3
+{
+    display:block;
+    position: relative;
+    top: 90px;
+    border: 2px solid red;
+}
+.main3 h1
+{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+.main3 .container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+.main3 .container div
+{
+    margin: 20px;
+}
+.main3 .left
+{ 
+    background-image: url("../Media/staff4.jpg");
+    background-size:cover;
+    height: 420px;
+    flex-basis:640px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left: 50px;   
+}
+.main3 .right 
+{
+    border: 2px solid red;
+    border-radius: 10px;
+    flex-basis: 720px;
+    height: 420px;
+    position: relative;
+    /*background-color: white;*/
+}
+.main3 .right input
+{
+    height: 50px;
+    border: 2px solid grey;
+    margin: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.main3 .right #txtarea
+{
+    flex-basis: 680px;
+    border: 2px solid grey;
+    margin: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.main3 .right button
+{
+    position: relative;
+    left: 15px;
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    background-color: transparent;
+    color: red;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid red;
+    cursor: pointer;
+    font-size: 20px;
+}
+.main3 .right button:hover
+{
+    background-color: orange;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+
+footer
+{
+    position:relative;
+    top:100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url("../media/back2.jpg");
+    background-size: cover;
+    justify-content: center;
+}
+footer div
+{
+    margin: 20px 80px;
+}
+.footer1 
+{
+    display: block;
+    position:relative;
+    top: 20px;
+    color: white;
+    font-weight: bold;
+    flex-basis: content;
+    
+}
+.footer1 h1,.footer2 h1
+{
+    display:inline-block;
+    color:yellow;
+    font-size: 30px;
+    line-height: 0px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.footer1 h3,.footer2 h3
+{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.footer2
+{
+    display: inline-block;
+    position:relative;
+    top: 20px;
+}
+.footer2 ul li
+{
+    list-style: none;
+    font-size:20px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    margin-left:-30px;
+}
+.footer2 ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer2 ul li a:hover
+{
+    color:orange;
+    font-weight: bolder;
+}
+
+.last
+{
+    position: relative;
+    top:70px;
+}
+
+.heading
+{
+ 
+    display: block;
+    
+    position: relative;
+    top: 90px;
+    
+}
+.button h1
+{
+    display: inline-block;
+    width: 300px;
+    border: 2px solid red;
+    height: 100px;
+}
+.last .btn1
+{
+    background-color: red;
+}
+.last .btn2
+{
+    background-color: #BA184F;
+}
+.last .btn3
+{
+    background-color:rgb(24, 24, 144);
+}
+.last .btn4
+{
+    background-color:rgb(34, 84, 184);
+}
+.last .btn5
+{
+    background-color:#FD1D1D;
+}
+.last button
+{
+    width: 190px;
+    height: 55px;
+    border-radius: 8px;
+}
+.last button img
+{
+    height: 38px;
+    text-align: center;
+    margin-top: 5px;
+}
+.last button:hover
+{
+    background-color: orange;
+    cursor: pointer;
+}
+
+                /* Media Querry for Mobile-width<450px */
+@media screen and (max-width:450px)
+{
+    .logo
+    {
+        height: 60px;
+        width: 70px;
+        position: relative;
+        top:0;
+        left:0;
+    }
+    .logo img
+    {
+        height: 57px;
+        width: 100px;
+        margin-left:5px ;
+    }    
+header
+{   
+    display:flex;
+    height:240px;
+}
+                /* Navigation Bar */
+ .container1
+ {
+     display: none;
+ }
+ .navbar
+{
+    top: 20px;
+    left: 80px;
+    height: 13px;
+    margin-left:0;
+    margin-top:0;
+    border-top: 3px solid rgb(67, 67, 82);
+    border-bottom: 3px solid rgb(67, 67, 82);
+}
+.navbar ul 
+{
+    padding: 0;
+    margin: 0;
+}
+ .navbar li
+{
+    margin-bottom: 10px;
+    height:0;
+    width: 57px;
+    font-size:8px;
+    font-weight: bold;
+    text-align:left;
+    color: white;   
+}
+ 
+.right-btn button
+{
+    font-size: 8px;
+    height:max-content;
+    width: max-content;
+    position:fixed;
+    top: 30px;
+    right:30px;
+    transition: all 0.5s;
+}
+
+         
+.main1 .sub-main
+{
+    border: none;
+}
+.main2 .box1 img
+{
+    left: 100px;
+}
+.main2 .review
+{
+    flex-direction:column;
+}
+.main2 .review .box1
+{
+    margin-left:0;
+    margin-top:60px;
+    justify-content: center;
+}
+.main3 .left
+{
+    height: 230px;
+}
+.main3 .right 
+{
+    display:flex;
+    height: 370px;
+}
+.main3 .right input
+{
+    height: 30px;
+    width: 132px;
+    font-size: 15px;
+}
+.main3 .right textarea
+{
+    width: 300px;
+}
+.main3
+{
+    position:relative;
+    top: 130px;
+}
+            /* Footer Part */
+footer 
+{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    top: 150px;
+    left: 0;
+    text-align:center;
+    font-size:x-small;
+}
+footer div
+{
+    margin: 20px 5px 20px 0;
+}
+.footer1 h1,.footer2 h1 
+{
+    font-size: 30px;
+}
+.footer1 h3
+{
+    line-height:20px;
+}
+.heading,.last
+{
+    display: none;
+}
+}
+  
+     

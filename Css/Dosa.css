@@ -1,0 +1,542 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Bhaina 2', cursive; ;
+}
+body a 
+{
+    color:white;
+    text-decoration:none;
+}
+
+.logo
+{
+    display: inline-block;
+    height: 130px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    /*border: 2px solid red;*/
+    background-color: orangered;
+    border-radius: 30px;
+}
+.logo img
+{
+    height: 130px;
+    width: 200px;
+    position: relative;
+    left: -20px;
+    
+}
+
+header
+{
+    position: relative;
+    background-image: url("../Media/Background/dosa.webp");
+    background-size: cover;
+    background-position: center center;
+    /*border: 2px solid red;*/
+    height: 780px;
+}
+.navbar
+{
+    display: inline-block;
+    position: absolute;
+    /*border: 2px solid red;*/
+    margin: 0px;
+    padding: 0px;
+    /*background-color:yellow;*/
+    height: 50px;
+    margin-left: 220px;
+    margin-top: 20px;
+    border-top: 3px solid rgb(67, 67, 82);
+    border-bottom: 3px solid rgb(67, 67, 82);
+    color:orangered;
+}
+.navbar li
+{
+    float: left;
+    list-style: none;
+    width: 145px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:left;    
+}
+.navbar li a
+{
+    text-decoration: none;
+    color:orangered;
+}
+.navbar li:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.navbar li:hover ul
+{
+    position: relative;
+    top: 10px;
+}
+.navbar li:hover ul li
+{
+    display: block;
+    position: relative;
+    margin-left: -42px;
+    width: 145px;
+    position: relative;
+    height: 30px;
+}
+.navbar li:hover ul li:hover
+{
+    background-color: orange;
+    border-radius: 5px;
+}
+.navbar li  ul li
+{
+    display:none;
+    list-style: none;
+    width: 145px;
+}
+
+.container1
+{
+    position: absolute;
+    top: 320px;
+    left: 340px;
+    display: inline-block;
+    height: 300px;
+    width: 580px;
+    /*border: 2px solid red;*/
+    line-height: 50px;
+    color: white;   
+    
+}
+.container1 h1
+{
+    font-size: 60px;   
+    display: block;
+    margin: 0px;
+}
+.container1 h2
+{
+    line-height:30px;
+    margin-top: 5px;
+}
+.container1 button
+{
+    display: inline-block;
+    width: 190px;
+    height: 60px;
+    font-size: 18px;
+    background-color:  orange;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+   margin-left: 10px;
+   text-align: center;
+}
+.container1 #btn2 img
+{
+    display: inline-block;
+    height: 20px;
+    padding-left: 0px;   
+}
+.container1 button:hover
+{
+    background-color: orange;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+
+
+
+.right-btn button
+{
+    display: inline-block;
+    position:absolute;
+    top: 35px;
+    right: 100px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.right-btn button:hover
+{
+    background-color: orange;
+    font-size: 18px;
+}
+
+                        /*Main Part*/
+
+
+.main1
+{
+    display: block;
+    position: relative;
+    top: 40px;
+    height:max-content;
+}
+.main1 h1
+{
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    padding: 0px;
+}
+.main1 .box1
+{
+    display: inline-block;
+    height: 350px;
+    width: 400px;
+    position: relative;
+    left: 70px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color:rgb(40, 41, 41);
+}
+.main1 .box1 img
+{
+    height: 240px;
+    width: 400px;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main1 .box1 h3
+{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 5px;
+}
+.main1 .box1 .like
+{
+    width: 90px;
+    height: 40px;
+    position:absolute;
+    right: -7px;
+    bottom:33px;
+    font-weight: bolder;
+    border: none;
+    color: white;
+    line-height: 0px;
+    text-align: right;
+}
+.main1 .box1 .like:hover
+{
+    background-color: transparent;
+}
+.main1 .box1 .like img
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    margin-top: 1px;
+    padding: 0px;
+    position:absolute;
+    left: 0px;
+    text-align:left;
+}
+.main1 .box1 .like img:hover
+{
+    cursor: pointer;
+}
+
+.main1 .box1 button
+{
+    display:block;
+    position:relative;
+    bottom:8px;
+    left:290px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main1 .box1 button:hover
+{
+    background-color:orange;
+}
+.main1 .box1 button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*Footer Part*/
+
+footer
+{
+    position:relative;
+    top:100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url("../media/back2.jpg");
+    background-size: cover;
+    justify-content: center;
+}
+footer div
+{
+    margin: 20px 80px;
+}
+.footer1 
+{
+    display: block;
+    position:relative;
+    top: 20px;
+    color: white;
+    font-weight: bold;
+    flex-basis: content;
+    
+}
+.footer1 h1,.footer2 h1
+{
+    display:inline-block;
+    color:yellow;
+    font-size: 30px;
+    line-height: 0px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.footer1 h3,.footer2 h3
+{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.footer2
+{
+    display: inline-block;
+    position:relative;
+    top: 20px;
+}
+.footer2 ul li
+{
+    list-style: none;
+    font-size:20px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    margin-left:-30px;
+}
+.footer2 ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer2 ul li a:hover
+{
+    color:orange;
+    font-weight: bolder;
+}
+
+.last
+{
+    position: relative;
+    top:70px;
+}
+
+.heading
+{
+ 
+    display: block;
+    
+    position: relative;
+    top: 90px;
+    
+}
+.button h1
+{
+    display: inline-block;
+    width: 300px;
+    border: 2px solid red;
+    height: 100px;
+}
+.last .btn1
+{
+    background-color: red;
+}
+.last .btn2
+{
+    background-color: #BA184F;
+}
+.last .btn3
+{
+    background-color:rgb(24, 24, 144);
+}
+.last .btn4
+{
+    background-color:rgb(34, 84, 184);
+}
+.last .btn5
+{
+    background-color:#FD1D1D;
+}
+.last button
+{
+    width: 190px;
+    height: 55px;
+    border-radius: 8px;
+}
+.last button img
+{
+    height: 38px;
+    text-align: center;
+    margin-top: 5px;
+}
+.last button:hover
+{
+    background-color: orange;
+    cursor: pointer;
+}
+
+            /*Media Querry >450px*/
+@media screen and (max-width: 450px)
+{
+    .logo
+    {
+        height: 60px;
+        width: 70px;
+        position: relative;
+        top:0;
+        left:0;
+    }
+    .logo img
+    {
+        height: 57px;
+        width: 100px;
+        margin-left:5px ;
+    }    
+header
+{   
+    display:flex;
+    height:240px;
+    width:100%;
+}
+                /* Navigation Bar */
+ .container1
+ {
+     display: none;
+ }
+ .navbar
+{
+    top: 20px;
+    left: 80px;
+    height: 13px;
+    margin-left:0;
+    margin-top:0;
+}
+.navbar ul 
+{
+    padding: 0;
+    margin: 0;
+}
+ .navbar li
+{
+    margin-bottom: 10px;
+    height:0;
+    width: 57px;
+    font-size:8px;
+}
+ 
+.right-btn button
+{
+    font-size: 8px;
+    height:max-content;
+    width: max-content;
+    position:fixed;
+    top: 30px;
+    right:30px;
+    transition: all 0.5s;
+}
+.main1
+{
+    top: 10px;
+    width: fit-content;
+}
+.main1 h1
+{
+    line-height: 0;
+}
+.main1 .box1
+{
+    width:98%;
+    left:3px;
+    margin:0;
+}
+.main1 .box1 img
+{
+    height: 240px;
+    width:100%;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main1 .box1 button 
+{
+    bottom: 10px;
+    left: 280px;
+}
+
+            /* Footer Part */
+footer 
+{
+    text-align: center;
+    height: max-content;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    top: 20px;
+}
+footer .footer1,.footer2
+{
+    position: relative;
+    left:0;
+}
+.footer1 h1,.footer2 h1 
+{
+    font-size: 30px;
+}
+.footer1 h3
+{
+    line-height:20px;
+}
+.footer2 ul li 
+{
+    
+    margin: 0;
+}
+.heading,.last
+{
+    display: none;
+}           
+}                

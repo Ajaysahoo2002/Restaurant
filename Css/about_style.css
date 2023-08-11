@@ -1,0 +1,432 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhaina 2', cursive; ;
+}
+body a 
+{
+    color:white;
+    text-decoration:none;
+}
+
+.logo
+{
+    display: inline-block;
+    height: 130px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    /*border: 2px solid red;*/
+    background-color: orangered;
+    border-radius: 30px;
+}
+.logo img
+{
+    height: 130px;
+    width: 200px;
+    position: relative;
+    left: -20px;
+    
+}
+
+.navbar
+{
+    display: inline-block;
+    position: absolute;
+    /*border: 2px solid red;*/
+    margin: 0px;
+    padding: 0px;
+    /*background-color:yellow;*/
+    height: 50px;
+    margin-left: 220px;
+    margin-top: 20px;
+    border-top: 3px solid rgb(67, 67, 82);
+    border-bottom: 3px solid rgb(67, 67, 82);
+    
+}
+
+.navbar li
+{
+    float: left;
+    list-style: none;
+    width: 145px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:left;
+    color:white;
+        
+}
+.navbar li:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.right-btn button
+{
+    display: inline-block;
+    position:absolute;
+    top: 35px;
+    right: 100px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    
+}
+.right-btn button:hover
+{
+    background-color: orange;
+    font-size: 18px;
+    text-decoration:none;
+}
+
+.ctr1
+{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+    top: -120px;
+    left: 100px;
+}
+
+.ctr1 h1
+{
+    text-align: center;
+    background-color:orangered;
+    border-radius: 20px;
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    left: 273px;
+    padding: 10px;
+}
+.ctr1 p
+{
+    border: 2px solid rgb(238, 103, 12);
+    text-align: center;
+    color: white;
+    width: 677px;
+    height: 290px;
+    margin: 0px;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+
+.ctr2
+{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+    top: 420px;
+    left: 0px;
+}
+
+.ctr2 h1
+{
+    text-align: center;
+    background-color:orangered;
+    border-radius: 10px;
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    padding: 10px;
+}
+.ctr2 p
+{
+    border: 2px solid rgb(238, 103, 12);
+    text-align: center;
+    color: white;
+    width: 715px;
+    height: 405px;
+    margin: 0px;
+    padding: 10px 10px;
+    font-size: 30px;
+    line-height: none;
+}
+
+.ctr3
+{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+    top: 420px;
+    left: 70px;
+}
+
+.ctr3 h1
+{
+    text-align: center;
+    background-color: orangered;
+    border-radius: 10px;
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    left: 230px;
+    padding: 10px;
+}
+.ctr3 p
+{
+    border: 2px solid orangered;
+    text-align: center;
+    color: white;
+    width: 600px;
+    height: 180px;
+    margin: 0px;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+
+footer
+{
+    position:relative;
+    top:100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url("../media/back2.jpg");
+    background-size: cover;
+    justify-content: center;
+}
+footer div
+{
+    margin: 20px 80px;
+}
+.footer1 
+{
+    display: block;
+    position:relative;
+    top: 20px;
+    color: white;
+    font-weight: bold;
+    flex-basis: content;
+    
+}
+.footer1 h1,.footer2 h1
+{
+    display:inline-block;
+    color:yellow;
+    font-size: 30px;
+    line-height: 0px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.footer1 h3,.footer2 h3
+{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.footer2
+{
+    display: inline-block;
+    position:relative;
+    top: 20px;
+}
+.footer2 ul li
+{
+    list-style: none;
+    font-size:20px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    margin-left:-30px;
+}
+.footer2 ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer2 ul li a:hover
+{
+    color:orange;
+    font-weight: bolder;
+}
+
+.last
+{
+    position: relative;
+    top:70px;
+}
+
+.heading
+{
+ 
+    display: block;
+    
+    position: relative;
+    top: 90px;
+    
+}
+.button h1
+{
+    display: inline-block;
+    width: 300px;
+    border: 2px solid red;
+    height: 100px;
+}
+.last .btn1
+{
+    background-color: red;
+}
+.last .btn2
+{
+    background-color: #BA184F;
+}
+.last .btn3
+{
+    background-color:rgb(24, 24, 144);
+}
+.last .btn4
+{
+    background-color:rgb(34, 84, 184);
+}
+.last .btn5
+{
+    background-color:#FD1D1D;
+}
+.last button
+{
+    width: 190px;
+    height: 55px;
+    border-radius: 8px;
+}
+.last button img
+{
+    height: 38px;
+    text-align: center;
+    margin-top: 5px;
+}
+.last button:hover
+{
+    background-color: orange;
+    cursor: pointer;
+}
+
+            /*Media Querry>450px*/
+@media screen and (max-width: 450px)
+{
+    .logo
+    {
+        height: 60px;
+        width: 70px;
+        position: relative;
+        top:0;
+        left:0;
+    }
+    .logo img
+    {
+        height: 57px;
+        width: 100px;
+        margin-left:5px ;
+    }    
+header
+{   
+    display:flex;
+    height:240px;
+    width: 455px;
+}
+                /* Navigation Bar */
+ .container1
+ {
+     display: none;
+ }
+ .navbar
+{
+    top: 20px;
+    left: 80px;
+    height: 13px;
+    margin-left:0;
+    margin-top:0;
+}
+.navbar ul 
+{
+    padding: 0;
+    margin: 0;
+}
+ .navbar li
+{
+    margin-bottom: 10px;
+    height:0;
+    width: 57px;
+    font-size:8px;
+    font-weight: bold;
+    text-align:left;
+    color: white;   
+}
+ 
+.right-btn button
+{
+    font-size: 8px;
+    height:max-content;
+    width: max-content;
+    position:fixed;
+    top: 20px;
+    right:30px;
+    transition: all 0.5s;
+}
+.ctr1,.ctr2,.ctr3
+{
+    top: 0;
+    left:0;
+}
+.ctr1 h1,.ctr2 h1,.ctr3 h1
+{
+    font-size: 12px;
+    left: 170px;
+}
+.ctr1 p,.ctr2 p  ,.ctr3 p 
+{
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+    text-align: center;
+    width:80%;
+    height: auto;
+    margin-left: 40px;
+}
+
+/* Footer Part */
+footer 
+{
+    text-align: center;
+    height: max-content;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    top: 20px;
+}
+footer .footer1,.footer2
+{
+    position: relative;
+    left:0;
+}
+.footer1 h1,.footer2 h1 
+{
+    font-size: 30px;
+}
+.footer1 h3
+{
+    line-height:20px;
+}
+.footer2 ul li 
+{
+    
+    margin: 0;
+}
+.heading,.last
+{
+    display: none;
+}
+}

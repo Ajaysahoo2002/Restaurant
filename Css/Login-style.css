@@ -1,0 +1,293 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../Media/login\ bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: none;
+    height: 110vh;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
+
+
+body a 
+{
+    color: orangered;
+    text-decoration: none;
+}
+
+.logo
+{
+    display: inline-block;
+    height: 130px;
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    /*border: 2px solid red;*/
+    background-color: orangered;
+    border-radius: 30px;
+}
+.logo img
+{
+    height: 130px;
+    width: 200px;
+    position: relative;
+    left: -20px;
+    
+}
+
+.navbar
+{
+    display: inline-block;
+    position: absolute;
+    /*border: 2px solid red;*/
+    margin: 0px;
+    padding: 0px;
+    /*background-color:yellow;*/
+    height: 50px;
+    margin-left: 390px;
+    margin-top: 20px;
+    border-top: 3px solid rgb(67, 67, 82);
+    border-bottom: 3px solid rgb(67, 67, 82);
+    
+}
+
+.navbar li
+{
+    float: left;
+    list-style: none;
+    width: 145px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:left;
+    color: orangered;
+        
+}
+.navbar li:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+form   
+{
+    display: inline-block;
+    position: relative;
+    top: 195px;
+    left: 464px;
+    height: 420px;
+    background-color: orange;
+}
+
+
+.header
+{
+    width: 600px;
+    height: 235px;
+    margin-bottom: -38px;
+}
+
+.header h3
+{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    color: orangered;
+    background-color: black;
+}
+
+.header input
+{
+    position: relative;
+    left: 150px;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+.header2
+{
+    position: relative;
+    left: 158px;
+    top: 30px;
+    font-size: 20px;
+}
+
+a button
+{
+    position: relative;
+    left: 235px;
+    top: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+    background-color: orangered;
+    font-weight: bold;
+}
+
+a button:hover
+{
+    background-color: white;
+    color: orangered;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.bottom
+{
+    position: relative;
+    top: 60px;
+    left: 90px;
+    font-size: 20px;
+}
+
+.bottom2
+{
+    position: relative;
+    top: 20px;
+    left: 360px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bottom2 a
+{
+    color: white;
+}
+
+
+
+footer
+{
+    position:relative;
+    top:240px;
+    background-image: url("../media/back2.jpg");
+    background-size: cover;
+    height:390px;
+}
+.footer1 
+{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    
+}
+.footer1 h1,.footer2 h1
+{
+    display:inline-block;
+    color:yellow;
+    font-size: 30px;
+    line-height: 0px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.footer1 h3,.footer2 h3
+{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.footer2
+{
+    display: inline-block;
+    position:absolute;
+    left: 950px;
+    top: 20px;
+}
+.footer2 ul li
+{
+    list-style: none;
+    font-size:20px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    margin-left:-30px;
+}
+.footer2 ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer2 ul li a:hover
+{
+    color:orange;
+    font-weight: bolder;
+}
+.footer3
+{
+    display: inline-block;
+    position:absolute;
+    top: 20px;
+    right: 30px;
+    background-color: transparent;
+}
+
+
+.last
+{
+    position: relative;
+    top:-48px;
+    left: -235px;
+}
+
+section
+{
+ 
+    display: block;
+    position: relative;
+    top: 225px;
+    margin-bottom: 0px;
+    
+}
+.button h1
+{
+    display: inline-block;
+    width: 300px;
+    border: 2px solid red;
+    height: 100px;
+}
+.last .btn1
+{
+    background-color: red;
+}
+.last .btn2
+{
+    background-color: #BA184F;
+}
+.last .btn3
+{
+    background-color:rgb(24, 24, 144);
+}
+.last .btn4
+{
+    background-color:rgb(34, 84, 184);
+}
+.last .btn5
+{
+    background-color:#FD1D1D;
+}
+.last button
+{
+    width: 190px;
+    height: 55px;
+    border-radius: 8px;
+}
+.last button img
+{
+    height: 38px;
+    text-align: center;
+    margin-top: 5px;
+}
+.last button:hover
+{
+    background-color: orange;
+    cursor: pointer;
+}
